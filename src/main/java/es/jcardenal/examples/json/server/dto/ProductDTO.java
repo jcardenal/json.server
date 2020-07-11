@@ -9,6 +9,6 @@ public class ProductDTO {
     private String ean;
     private String name;
     private String description;
-    private String currency;
-    private String price;
+    private PriceDTO firstPrice;
+    private PriceDTO secondPrice;
 }
