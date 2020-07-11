@@ -28,6 +28,8 @@ public class EndPointController {
             result[i] = new ProductDTO("094871989999484" + i,
                     "The Product " + (i + 1),
                     "This is a test product no. " + (i + 1),
+                    "This is an alternative description for product no. " + (i + 1),
+                    "IDXXX"+i,
                     firstPrice,
                     secondPrice
                     );
